@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #F2F2F2;
+}
+
+header#main-header {
+  height: 64px;
+  background: #4A90E2;
+  position: relative;
+  z-index: 1;
+}
+
+header#main-header .nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+header#main-header .nav-content img {
+  margin-left: 42px;
+}
+
+header#main-header .profile {
+  margin-right: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFF;
+}
+
+header#main-header .profile-items {
+  display: flex;
+  align-items: center;
+}
+
+header#main-header .profile-items i {
+  margin-right: 42px;
+  color: #FFF;
+}
+
+ul {
+  list-style: none;
+}
+
+ul#post-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+li#post-item {
+  display: flex;
+  background: #FFF;
+  flex-direction: column;
+  width: 700px;
+  border-radius:  6px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+}
+
+li#post-item div#author {
+  display: flex;
+  align-items: center;
+}
+
+li#post-item div#author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 20px 10px 15px 20px;
+}
+
+li#post-item div#author .author-name {
+  align-items: center;
+  margin: 20px 0 15px 0;
+}
+
+li#post-item div#author .author-name p {
+  font-size: 14px;
+  color: #4A4A4A;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+li#post-item div#author .author-name span {
+  font-size: 11px;
+  color: #9A9A9A;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+li#post-item .line {
+  height: 1px;
+  width: 660px;
+  margin: 20px;
+  background: #EEEEEE;
+}
+
+li#post-item p#post-content {
+  font-size: 14px;
+  color: #3E3E3E;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 20px 0 20px;
+  line-height: 20px;
+}
+
+li#post-item ul#comments li {
+  display: flex;
+  margin: 0 20px 20px 20px;
+}
+
+li#post-item ul#comments li img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+li#post-item ul#comments li div#comment-content {
+  width: 622px;
+  border-radius: 20px;
+  background: #EEEEEE;
+  font-size: 13px;
+  color: #3E3E3E;
+  padding: 10px 15px;
+  line-height: 20px;
+}
